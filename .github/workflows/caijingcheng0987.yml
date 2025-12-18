@@ -1,25 +1,32 @@
 name: caijingcheng0987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 1/6 * * *'
+    - cron: '50 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caijingcheng0987
         env:
-          vqb5260: ${{ secrets.vqb5260 }}
+          y241: ${{ secrets.y241 }}
         run: |
-          echo $vqb5260 | jq -r .s222 | /bin/bash
-          echo $mylco4 | jq -r .dh26305 | /bin/bash
-          echo $ahft46501 | jq -r .hgt04 | /bin/bash
-          echo $h03 | jq -r .nwyuk917 | /bin/bash
-          echo $p168 | jq -r .o38 | /bin/bash
-          echo $mzayo057 | jq -r .ywr721 | /bin/bash
-          echo $d1 | jq -r .ux64458 | /bin/bash
-          echo $fqbci111 | jq -r .eppc4791 | /bin/bash
+          echo $y241 | jq -r .sq5621 | /bin/bash
+          echo $p02 | jq -r .hihj9 | /bin/bash
+          echo $ayi50 | jq -r .jeeq3858 | /bin/bash
+          echo $fkvjw828 | jq -r .vns2 | /bin/bash
+          echo $fgsq376 | jq -r .qep6 | /bin/bash
+          echo $ee78 | jq -r .g74790 | /bin/bash
+          echo $ma9492 | jq -r .wdei4024 | /bin/bash
+          echo $zngu4 | jq -r .nlc01 | /bin/bash
+          echo $sjlpx6 | jq -r .c0588 | /bin/bash
+          echo $u6383 | jq -r .rruir7135 | /bin/bash
+          echo $e7690 | jq -r .ivvhw060 | /bin/bash
+          echo $qke2 | jq -r .lpcnu64333 | /bin/bash
+          echo $plw193 | jq -r .m6674 | /bin/bash
+          echo $lew6510 | jq -r .y68 | /bin/bash
+          echo $tq06077 | jq -r .cafv06 | /bin/bash
 
